@@ -69,7 +69,7 @@ function App() {
 
         </Entity>
 
-        <Entity gltf-model="https://aframe-react-three.vercel.app/model/scene.gltf" />
+        <Entity gltf-model="https://aframe-react-three.vercel.app/model/car/scene.gltf" />
 
         <Entity primitive="a-camera">
           <Entity primitive="a-cursor" animation__click={{ property: 'scale', startEvents: 'click', from: '0.1 0.1 0.1', to: '1 1 1', dur: 150 }} />
