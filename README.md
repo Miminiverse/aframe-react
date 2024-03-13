@@ -29,4 +29,9 @@ return (
     <Box position={[0, 0, 5]} />
   </Scene>
 );
+
+![arjs3-image-tracking](https://github.com/Miminiverse/aframe-react/assets/109603295/5a0c360b-787a-4d40-9075-eb6a1a021a61)
+
+
 ```
+
