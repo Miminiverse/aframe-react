@@ -20,10 +20,10 @@ function App() {
     <>
       <div>Hello</div>
       <Scene>
-        {/* <a-assets>
+        <a-assets>
           <img id="groundTexture" src="https://cdn.aframe.io/a-painter/images/floor.jpg" alt="Ground Texture" />
           <img id="skyTexture" src="https://cdn.aframe.io/a-painter/images/sky.jpg" alt="Sky Texture" />
-        </a-assets> */}
+        </a-assets>
 
         <Entity primitive="a-plane" src="#groundTexture" rotation="-90 0 0" height="100" width="100" />
         <Entity primitive="a-light" type="ambient" color="#445451" />
@@ -46,6 +46,16 @@ function App() {
             geometry={{ primitive: 'box', depth: 0.2, height: 0.2, width: 0.2 }}
             material={{ color: '#24CAFF' }}
           />
+        </Entity>
+        <Entity
+          type="nft"
+          url='src/capture'
+          smooth="true"
+          smoothCount="10"
+          smoothTolerance=".01"
+          smoothThreshold="5"
+        >
+
         </Entity>
 
         <Entity primitive="a-camera">
