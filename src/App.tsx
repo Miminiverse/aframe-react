@@ -4,8 +4,7 @@ import { Entity, Scene } from 'aframe-react';
 import React, { useState } from 'react';
 import ReactDOM from 'react-dom';
 import 'aframe-mountain-component';
-
-import 'ar.js'; // Import the pattern marker image
+import 'ar.js';
 
 function App() {
   const handleClick = () => {
@@ -81,7 +80,7 @@ function App() {
         </Entity>
 
       </Scene>
-      <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
+      {/* <a-scene embedded arjs="sourceType: webcam; debugUIEnabled: false;">
         <a-marker type="pattern" url="pattern-marker.patt">
           <a-plane
             id="imagePlane"
@@ -93,7 +92,7 @@ function App() {
           >
           </a-plane>
         </a-marker>
-      </a-scene>
+      </a-scene> */}
 
     </>
 
